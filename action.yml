@@ -49,9 +49,8 @@ inputs:
     description: "file dir, e.g. image/"
 
 permissions:   # 新增 permissions 字段
-  contents: read
-  pages: write
-   
+  contents: write
+
 runs:
   using: 'node16'
   main: 'dist/index.js'
